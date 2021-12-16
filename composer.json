@@ -1,20 +1,35 @@
 {
-    "name": "ibrahimch/apk-parser-php",
-    "description": "androidmanifest.xml parser",
-    "authors": [
-        {
-            "name": "Ibrahim CH",
-            "email": "pvtlyf@gmail.com"
-        }
-    ],
+  "name": "ibrahimch/apk-parser-php",
+  "type": "library",
+  "description": "Read basic info about an application from .apk file.",
+  "keywords": [
+    "apk",
+    "parser",
+    "android"
+  ],
+  "homepage": "https://github.com/ibrahimch/apk-parser-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "GOGO",
+      "email": "1132436044@qq.com",
+      "homepage": "http://tufanbarisyildirim.com",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.0.0"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ibrahimch/apk-parser-php.git"
+    }
+  ],
   "autoload": {
-    "psr-4": {
-      "Parser\\AndroidManifestParser\\":"src/"
+    "psr-0": {
+      "ApkParser": "src"
     }
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "v1.0.0-dev"
-    }
-  }
+  "minimum-stability": "dev"
 }
