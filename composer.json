@@ -12,9 +12,13 @@
       "Parser\\AndroidManifestParser\\":"src/"
     }
   },
-  "extra": {
-    "branch-alias": {
-      "dev-master": "v1.0.0-dev"
-    }
-  }
+  "require": {
+    "php": ">=7.1",
+    "ext-simplexml": "*",
+    "ext-json": "*",
+    "ext-libxml": "*",
+    "ext-mbstring": "*",
+    "ext-zip": "*"
+  },
+  "minimum-stability": "dev"
 }
