@@ -1,0 +1,20 @@
+{
+    "name": "ibrahimch/apk-parser-php",
+    "description": "androidmanifest.xml parser",
+    "authors": [
+        {
+            "name": "Ibrahim CH",
+            "email": "pvtlyf@gmail.com"
+        }
+    ],
+  "autoload": {
+    "psr-4": {
+      "Parser\\AndroidManifestParser\\":"src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "v1.0.0-dev"
+    }
+  }
+}
