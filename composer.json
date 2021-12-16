@@ -1,5 +1,5 @@
 {
-    "name": "ibrahimch/apk-parser-php",
+  "name": "ibrahimch/apk-parser-php",
   "type": "library",
   "description": "Read basic info about android application from .apk file.",
   "keywords": [
@@ -29,15 +29,7 @@
     }
   ],
   "require": {
-    "php": ">=7.1",
-    "ext-simplexml": "*",
-    "ext-json": "*",
-    "ext-libxml": "*",
-    "ext-mbstring": "*",
-    "ext-zip": "*"
-  },
-  "require-dev": {
-    "phpunit/phpunit": "^7.4"
+    "php": ">=7.1"
   },
   "repositories": [
     {
@@ -49,6 +41,5 @@
     "psr-0": {
       "ApkParser": "lib"
     }
-  },
-  "minimum-stability": "dev"
+  }
 }
