@@ -1,17 +1,33 @@
 {
     "name": "ibrahimch/apk-parser-php",
-    "description": "androidmanifest.xml parser",
-    "authors": [
-        {
-            "name": "Ibrahim CH",
-            "email": "pvtlyf@gmail.com"
-        }
-    ],
-  "autoload": {
-    "psr-4": {
-      "Parser\\AndroidManifestParser\\":"src/"
-    }
+  "type": "library",
+  "description": "Read basic info about android application from .apk file.",
+  "keywords": [
+    "apk",
+    "parser",
+    "android"
+  ],
+  "homepage": "https://github.com/evozi/apk-parser-php",
+  "support": {
+    "email": "email@evozi.com",
+    "issues": "https://github.com/evozi/apk-parser-php/issues",
+    "source": "https://github.com/evozi/apk-parser-php"
   },
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Evozi",
+      "email": "email@evozi.com",
+      "homepage": "http://www.evozi.com",
+      "role": "Developer"
+    },
+    {
+      "name": "Tufan Baris YILDIRIM",
+      "email": "tufanbarisyildirim@gmail.com",
+      "homepage": "http://tufanbarisyildirim.com",
+      "role": "Developer"
+    }
+  ],
   "require": {
     "php": ">=7.1",
     "ext-simplexml": "*",
@@ -19,6 +35,20 @@
     "ext-libxml": "*",
     "ext-mbstring": "*",
     "ext-zip": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^7.4"
+  },
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/ibrahimch/apk-parser-php.git"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "ApkParser": "lib"
+    }
   },
   "minimum-stability": "dev"
 }
