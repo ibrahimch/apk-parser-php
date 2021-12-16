@@ -27,19 +27,5 @@
       "homepage": "http://tufanbarisyildirim.com",
       "role": "Developer"
     }
-  ],
-  "require": {
-    "php": ">=7.1"
-  },
-  "repositories": [
-    {
-      "type": "vcs",
-      "url": "https://github.com/ibrahimch/apk-parser-php.git"
-    }
-  ],
-  "autoload": {
-    "psr-0": {
-      "ApkParser": "lib"
-    }
-  }
+  ]
 }
